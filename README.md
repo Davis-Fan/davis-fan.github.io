@@ -1,3 +1,3 @@
-# Blog of Arthur Pesah
+# Homepage of Dayi Fan
 
-Accessible at [artix41.github.io](https://artix41.github.io).
+
