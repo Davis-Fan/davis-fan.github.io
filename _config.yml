@@ -1,0 +1,5 @@
+title: "Dayi Fan"
+description: "Official homepage of Dayi Fan, PhD student at The Ohio State University."
+url: "https://davis-fan.github.io"
+plugins:
+  - jekyll-sitemap
