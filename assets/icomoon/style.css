@@ -349,9 +349,18 @@
   margin-top: 1rem;
 }
 
+/*@media screen and (min-width: 64em) {*/
+/*  .content {*/
+/*    max-width: 52rem;*/
+/*  }*/
+/*}*/
+
 @media screen and (min-width: 64em) {
   .content {
-    max-width: 52rem;
+    max-width: 62rem;
+    padding-left: 7rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
   }
 }
 
