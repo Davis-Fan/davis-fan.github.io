@@ -232,13 +232,13 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
           <ul class="publication-highlights">
             <li>
-              Developed the first large-scale parallel framework for maximum weight perfect matching (MWPM) in bipartite graphs
+              The first scalable parallel framework for bipartite weighted matching, a fundamental problem in user paring, object tracking, and entity resolution
             </li>
             <li>
-              Proposed phase-decoupled sequential and parallel <em>Hungarian algorithms</em> with optimized multicore implementations
+              Introduces a new phase-decoupled Hungarian algorithm that breaks the tight interleaving between path search and label updates, enabling massive search concurrency while substantially reducing synchronization
             </li>
             <li>
-              Enables efficient large-scale assignment for cloud resource allocation, entity resolution, object tracking, and multi-robot coordination
+              Outperforms state-of-the-art baselines by up to 10x on one core and scales to 96 cores with an average 1.7x speedup per thread doubling
             </li>
           </ul>
 
@@ -274,13 +274,13 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
           <ul class="publication-highlights">
             <li>
-              Developed the first large-scale parallel framework for maximum matching
+              The first scalable parallel framework for maximum matching, a critical primitive in graph databases, network scheduling, and service dispatch
             </li>
             <li>
-              Proposed recursion-free sequential and parallel <em>Blossom algorithms</em> that eliminate dynamic graph contraction, implemented on multicore CPUs
+              Proposes a new recursion-free Blossom algorithm that eliminates dynamic graph contraction, thereby removing strong recursive dependencies and exposing massive parallelism
             </li>
             <li>
-              Supports high-performance applications in network scheduling, graph analytics, user pairing, and online service dispatch
+              Surpasses prior state-of-the-art matching solutions significantly, achieving speedups of up to three orders of magnitude
             </li>
           </ul>
 
@@ -318,13 +318,13 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
           <ul class="publication-highlights">
             <li>
-              Developed the first large-scale parallel framework for tree edit distance
+              The first scalable parallel framework for tree edit distance, with broad applications including code analysis and LLM output evaluation
             </li>
             <li>
-              Proposed a novel algorithm that breaks complex dynamic programming dependencies, with optimized multicore CPU and GPU implementations
+              Develops a new algorithm that infers intricate data dependencies among dynamic-programming tables from input tree structures with negligible overhead and batches independent tables for concurrent processing
             </li>
             <li>
-              Enables efficient comparison of tree-structured data in code analysis, LLM output evaluation, and hierarchical data processing
+              Achieves speedups of up to 31× over prior parallel solutions
             </li>
           </ul>
 
