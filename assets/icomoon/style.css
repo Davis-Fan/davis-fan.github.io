@@ -395,6 +395,12 @@
   }
 }
 
+@media screen and (min-width: 64em) and (max-width: 1665px) {
+  .content {
+    padding-left: clamp(2.5rem, 4vw, 4.5rem);
+  }
+}
+
 @media screen and (max-width: 48em) {
   .publication-card {
     flex-direction: column;
