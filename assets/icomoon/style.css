@@ -355,12 +355,43 @@
 /*  }*/
 /*}*/
 
+/*@media screen and (min-width: 64em) {*/
+/*  .content {*/
+/*    max-width: 95rem;*/
+/*    padding-left: 24rem;*/
+/*    padding-right: 1rem;*/
+/*    box-sizing: border-box;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (min-width: 64em) {*/
+/*  .content {*/
+/*    width: calc(100% - 21rem);*/
+/*    max-width: 78rem;*/
+
+/*    margin-left: 21rem;*/
+/*    margin-right: auto;*/
+
+/*    padding-left: clamp(3rem, 5vw, 7rem);*/
+/*    padding-right: 2rem;*/
+/*    box-sizing: border-box;*/
+/*  }*/
+/*}*/
+
 @media screen and (min-width: 64em) {
   .content {
-    max-width: 95rem;
-    padding-left: 24rem;
-    padding-right: 1rem;
+    max-width: 78rem;
+    padding-left: clamp(3rem, 5vw, 7rem);
+    padding-right: 2rem;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1666px) {
+  .content {
+    width: auto;
+    margin-left: calc(50% - 28rem);
+    margin-right: auto;
   }
 }
 
