@@ -382,7 +382,7 @@
   .content {
     max-width: 78rem;
     padding-left: clamp(3rem, 5vw, 7rem);
-    padding-right: 2rem;
+    padding-right: 1rem;
     box-sizing: border-box;
   }
 }
