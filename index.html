@@ -239,7 +239,24 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
       </div>
 
       <br>
-      <p>My Chinese name is <span style="font-family:'STKaiti', 'KaiTi', 'PingFang SC', 'Noto Sans CJK SC', sans-serif;font-size: 1.2em;  -webkit-text-stroke: 0.5px currentColor; ">范达熠</span> (pronounced as <em>Fan Da-yee</em>), where “<span style="font-family:'STKaiti', 'KaiTi', 'PingFang SC', 'Noto Sans CJK SC', sans-serif;font-size: 1.2em;  -webkit-text-stroke: 0.5px currentColor; ">达</span>” (<em>Da</em>) conveys openness and generosity, and “<span style="font-family:'STKaiti', 'KaiTi', 'PingFang SC', 'Noto Sans CJK SC', sans-serif;font-size: 1.2em;  -webkit-text-stroke: 0.5px currentColor; ">熠</span>” (<em>Yee</em>) suggests brightness and radiance.</p>
+
+
+      <style>
+        .chinese-name {
+          font-family: "STKaiti", "Kaiti SC", "KaiTi", serif;
+          font-size: 1.2em;
+          -webkit-text-stroke: 0.5px currentColor;
+        }
+
+        /* 手机 */
+        @media (max-width: 768px) {
+          .chinese-name {
+            font-family: "KaiTi", "PingFang SC", "Noto Sans CJK SC", "KaiTi", serif;
+          }
+        }
+      </style>
+
+      <p>My Chinese name is <span class="chinese-name">范达熠</span> (pronounced as <em>Fan Da-yee</em>), where “<span class="chinese-name">达</span>” (<em>Da</em>) conveys openness and generosity, and “<span class="chinese-name">熠</span>” (<em>Yee</em>) suggests brightness and radiance.</p>
 <footer role="contentinfo">
   <hr/>
   
