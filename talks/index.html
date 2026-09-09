@@ -20,9 +20,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
 
-
-
-
 <head>
 
 
@@ -83,7 +80,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400|Noto+Sans:400,400i,700,700i&display=swap">
 
 
-
   <style id="_pageStyle">
 
     .content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
@@ -133,52 +129,169 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   >
     <article class="page" role="article">
       <header>
-        <h1 class="page-title">Edinburgh</h1>
-
-
-
+        <h2 class="page-title">Conference Paper</h2>
 
         <div class="hr pb0"></div>
 
 
 
-        <p>
-          Edinburgh, beneath its medieval castle, glows in the dusk. At sunset on Calton Hill, I see my longing for you in the fading light.
-        </p>
-
-
-        <p>
-
-        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
-          <hy-img root-margin="511px" src="/assets/img/gallery/edinburgh/1.jpg" alt="edinburgh 1" class="center" width="350px" align="center" srcset="/assets/img/gallery/edinburgh/1.jpg">
-            <img src="/assets/img/gallery/edinburgh/1.jpg" alt="edinburgh 1" class="center" width="500px" align="center">
-          </hy-img>
-
-        <hy-img root-margin="511px" src="/assets/img/gallery/edinburgh/2.jpg" alt="edinburgh 2" class="center" width="350px" align="center" srcset="/assets/img/gallery/edinburgh/2.jpg">
-          <img src="/assets/img/gallery/edinburgh/2.jpg" alt="edinburgh 2" class="center" width="500px" align="center">
-        </hy-img>
-
-        <hy-img root-margin="511px" src="/assets/img/gallery/edinburgh/3.jpg" alt="edinburgh 3" class="center" width="350px" align="center" srcset="/assets/img/gallery/edinburgh/3.jpg">
-          <img src="/assets/img/gallery/edinburgh/3.jpg" alt="edinburgh 3" class="center" width="500px" align="center">
-        </hy-img>
-
-        <hy-img root-margin="511px" src="/assets/img/gallery/edinburgh/4.jpg" alt="edinburgh 4" class="center" width="350px" align="center" srcset="/assets/img/gallery/edinburgh/4.jpg">
-          <img src="/assets/img/gallery/edinburgh/4.jpg" alt="edinburgh 4" class="center" width="500px" align="center">
-        </hy-img>
-
-        <hy-img root-margin="511px" src="/assets/img/gallery/edinburgh/5.jpg" alt="edinburgh 5" class="center" width="350px" align="center" srcset="/assets/img/gallery/edinburgh/5.jpg">
-          <img src="/assets/img/gallery/edinburgh/5.jpg" alt="edinburgh 5" class="center" width="500px" align="center">
-        </hy-img>
-
-        </div>
-
       </header>
-      <p style="text-align: center;">
-      <p style="text-align: center;">
-        <em>“远方传来风笛，我只在意有你的消息<br>
-          城堡为爱守着秘密，而我为你守着回忆”</em>
+
+
+
+      <div class="publication-gallery">
+        <div class="publication-card">
+          <div class="publication-card-img">
+            <img src="/assets/img/X-Wim.png" alt="X-Blossom thumbnail">
+          </div>
+
+          <div class="publication-card-body">
+            <p class="lead" style="margin-bottom: 0">
+              X-Wim: Massive Parallelization of Weighted Matching in Bipartite Graphs
+            </p>
+
+
+            <p class="faded" style="margin-bottom: 0">
+              <span style="text-decoration: underline;">Dayi Fan</span>, Simon Zhang, Rubao Lee, Hanqi Guo, Xiaodong Zhang
+            </p>
+
+            <p style="margin-top:0; margin-bottom:0 ; font-weight:200">
+              The 52<sup>nd</sup> International Conference on Very Large Data Bases (VLDB 2026)
+            </p>
+
+
+            <p style="margin: 0">
+              <a href="/assets/papers/X-Wim.pdf">[PDF]</a>
+              <a href="https://github.com/Davis-Fan/X-Wim">[Code]</a>
+              <a href="https://youtu.be/K4sghEmZOds">[Video]</a>
+            </p>
+
+            <ul class="publication-highlights">
+              <li>
+                The first scalable parallel framework for bipartite weighted matching, a fundamental problem in user paring, object tracking, and entity resolution
+              </li>
+              <li>
+                Introduces a new phase-decoupled Hungarian algorithm that breaks the tight interleaving between path search and label updates, enabling massive search concurrency while substantially reducing synchronization
+              </li>
+              <li>
+                Outperforms state-of-the-art baselines by up to 10x on one core and scales to 96 cores with an average 1.7x speedup per thread doubling
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="publication-gallery">
+        <div class="publication-card">
+          <div class="publication-card-img">
+            <img src="/assets/img/X-Blossom.png" alt="X-Blossom thumbnail">
+          </div>
+
+          <div class="publication-card-body">
+            <p class="lead" style="margin-bottom: 0">
+              X-Blossom: Massive Parallelization of Graph Maximum Matching
+            </p>
+
+            <p class="faded" style="margin-bottom: 0">
+              <span style="text-decoration: underline;">Dayi Fan</span>, Rubao Lee, Xiaodong Zhang
+            </p>
+
+            <p style="margin-top:0; margin-bottom:0; font-weight:200">
+              The 51<sup>st</sup> International Conference on Very Large Data Bases (VLDB 2025)
+            </p>
+
+            <p style="margin: 0">
+              <a href="/assets/papers/X-Blossom.pdf">[PDF]</a>
+              <a href="https://github.com/Davis-Fan/X-Blossom">[Code]</a>
+              <a href="https://youtu.be/IhNGYpwpN28">[Video]</a>
+            </p>
+
+            <ul class="publication-highlights">
+              <li>
+                The first scalable parallel framework for maximum matching, a critical primitive in graph databases, network scheduling, and service dispatch
+              </li>
+              <li>
+                Proposes a new recursion-free Blossom algorithm that eliminates dynamic graph contraction, thereby removing strong recursive dependencies and exposing massive parallelism
+              </li>
+              <li>
+                Surpasses prior state-of-the-art matching solutions significantly, achieving speedups of up to three orders of magnitude
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="publication-gallery">
+        <div class="publication-card">
+          <div class="publication-card-img">
+            <img src="/assets/img/X-TED.png" alt="X-TED thumbnail">
+          </div>
+
+          <div class="publication-card-body">
+            <p class="lead" style="margin-bottom: 0">
+              X-TED: Massive Parallelization of Tree Edit Distance
+            </p>
+
+
+            <p class="faded" style="margin-bottom: 0">
+              <span style="text-decoration: underline;">Dayi Fan</span>, Rubao Lee, Xiaodong Zhang
+            </p>
+
+            <p style="margin-top:0; margin-bottom:0; font-weight:200">
+              The 50<sup>th</sup> International Conference on Very Large Data Bases
+              (VLDB 2024)
+            </p>
+
+            <p style="margin: 0">
+              <a href="/assets/papers/X-TED.pdf">[PDF]</a>
+              <a href="https://github.com/Davis-Fan/X-TED">[Code]</a>
+              <a href="https://youtu.be/542wxM90KN0">[Video]</a>
+            </p>
+
+            <ul class="publication-highlights">
+              <li>
+                The first scalable parallel framework for tree edit distance, with broad applications including code analysis and LLM output evaluation
+              </li>
+              <li>
+                Develops a new algorithm that infers intricate data dependencies among dynamic-programming tables from input tree structures with negligible overhead and batches independent tables for concurrent processing
+              </li>
+              <li>
+                Achieves speedups of up to 31x over prior parallel solutions
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div style="height: 60px;"></div>
+
+
+      <header>
+        <h2 class="page-title">Journal Article</h2>
+        <div class="hr pb0"></div>
+      </header>
+
+
+      <p class="lead" style="margin-bottom: 0">
+        RR-Compound: RDMA-Fused gRPC for Low Latency, High Throughput, and Easy Interface</a>
       </p>
+      <p class="faded" style="margin-bottom: 0">
+        Liang Geng, Hao Wang, Jingsong Meng, <span style="text-decoration: underline;">Dayi Fan</span>, Sami Ben-Romdhane, Hari Kadayam Pichumani, Vinay Phegade, Xiaodong Zhang.
       </p>
+      <p style="margin-top:0; margin-bottom:0">
+        IEEE Transactions on Parallel and Distributed Systems (TPDS 2024)
+        <a href="https://xiaodongzhang1911.github.io/Zhang-papers/TR-24-5.pdf">[PDF]</a>
+        <a href="https://github.com/pwrliang/grpc-rdma">[Code]</a>
+      </p>
+
+
+
 
 
 
