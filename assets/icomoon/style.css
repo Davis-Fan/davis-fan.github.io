@@ -345,9 +345,33 @@
   transform: translateY(-4px);
 }
 
+.seminar-poster + .publication-card-body {
+  margin-left: 20px;
+}
+
 .publication-highlights li {
   margin-top: 1rem;
 }
+
+.publication-card-img.seminar-poster {
+  flex: 0 0 150px;
+  width: 150px;
+  aspect-ratio: auto;
+  margin: 6px 0 6px 6px;
+}
+
+
+.publication-card-img.seminar-poster img {
+  width: 100%;
+  height: auto;
+}
+
+.publication-abstract {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+
 
 /*@media screen and (min-width: 64em) {*/
 /*  .content {*/
@@ -420,6 +444,24 @@
   .publication-card-body {
     width: 100%;
     transform: none;
+  }
+
+  /* Seminar poster on mobile */
+  .publication-card-img.seminar-poster {
+    flex: none;
+    width: 150px;
+    max-width: 60%;
+    aspect-ratio: auto;
+    margin: 0 auto;
+  }
+
+  .publication-card-img.seminar-poster img {
+    width: 100%;
+    height: auto;
+  }
+
+  .seminar-poster + .publication-card-body {
+    margin-left: 0;
   }
 
   .publication-highlights {

@@ -129,7 +129,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   >
     <article class="page" role="article">
       <header>
-        <h2 class="page-title">Conference Paper</h2>
+        <h2 class="page-title">Invited Talks</h2>
 
         <div class="hr pb0"></div>
 
@@ -141,155 +141,41 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
       <div class="publication-gallery">
         <div class="publication-card">
-          <div class="publication-card-img">
-            <img src="/assets/img/X-Wim.png" alt="X-Blossom thumbnail">
+
+          <div class="publication-card-img seminar-poster">
+            <img src="/assets/img/MIT_Talk.png" alt="MIT CSAIL Seminar">
           </div>
 
           <div class="publication-card-body">
-            <p class="lead" style="margin-bottom: 0">
-              X-Wim: Massive Parallelization of Weighted Matching in Bipartite Graphs
+
+            <p class="lead" style="margin-bottom: 0.5rem">
+              Massive Parallelization of Irregular Computations:
+              Parallel Algorithm Design and <br> Hardware Acceleration
             </p>
 
-
-            <p class="faded" style="margin-bottom: 0">
-              <span style="text-decoration: underline;">Dayi Fan</span>, Simon Zhang, Rubao Lee, Hanqi Guo, Xiaodong Zhang
+            <p style="margin-bottom: 0">
+              MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), Cambridge, MA
             </p>
 
-            <p style="margin-top:0; margin-bottom:0 ; font-weight:200">
-              The 52<sup>nd</sup> International Conference on Very Large Data Bases (VLDB 2026)
+            <p style="margin-bottom: 0">
+              Hosted by <em>Prof. Julian Shun</em>
             </p>
 
-
-            <p style="margin: 0">
-              <a href="/assets/papers/X-Wim.pdf">[PDF]</a>
-              <a href="https://github.com/Davis-Fan/X-Wim">[Code]</a>
-              <a href="https://youtu.be/K4sghEmZOds">[Video]</a>
+            <p style="margin-bottom:0; font-weight:200">
+              August 31, 2026 · 2:00–3:00 PM · MIT 32-G575 · <a href="https://www.csail.mit.edu/event/massive-parallelization-irregular-computations-parallel-algorithm-design-and-hardware"> [Event]</a>
             </p>
 
-            <ul class="publication-highlights">
-              <li>
-                The first scalable parallel framework for bipartite weighted matching, a fundamental problem in user paring, object tracking, and entity resolution
-              </li>
-              <li>
-                Introduces a new phase-decoupled Hungarian algorithm that breaks the tight interleaving between path search and label updates, enabling massive search concurrency while substantially reducing synchronization
-              </li>
-              <li>
-                Outperforms state-of-the-art baselines by up to 10x on one core and scales to 96 cores with an average 1.7x speedup per thread doubling
-              </li>
-            </ul>
+            <div class="publication-abstract">
+              <p class="faded"  style="margin-bottom: 0.35rem;">Abstract</p>
+              <p style="margin: 0;">
+<!--                Developing efficient parallel algorithms is challenging, particularly for irregular computations where data dependencies inherently constrain available concurrency, and much of the parallelism remains deeply hidden. At the implementation level, complex execution patterns, nonuniform memory accesses, global coordination among tasks, and load imbalance issue further complicate efficient parallel execution. In this talk, I will present three highly scalable and massively parallel algorithms for tree edit distance (TED), maximum matching in general graphs (the Blossom algorithm), and weighted bipartite matching (the Hungarian algorithm), together with their implementations on multicore CPUs and GPUs...-->
+                Developing efficient parallel algorithms is challenging, particularly for irregular computations where data dependencies inherently constrain available concurrency, and much of the parallelism remains deeply hidden. At the implementation level, complex execution patterns, nonuniform memory accesses, global coordination among tasks, and load imbalance issue further complicate efficient parallel execution...
+              </p>
+            </div>
 
           </div>
         </div>
       </div>
-
-
-      <div class="publication-gallery">
-        <div class="publication-card">
-          <div class="publication-card-img">
-            <img src="/assets/img/X-Blossom.png" alt="X-Blossom thumbnail">
-          </div>
-
-          <div class="publication-card-body">
-            <p class="lead" style="margin-bottom: 0">
-              X-Blossom: Massive Parallelization of Graph Maximum Matching
-            </p>
-
-            <p class="faded" style="margin-bottom: 0">
-              <span style="text-decoration: underline;">Dayi Fan</span>, Rubao Lee, Xiaodong Zhang
-            </p>
-
-            <p style="margin-top:0; margin-bottom:0; font-weight:200">
-              The 51<sup>st</sup> International Conference on Very Large Data Bases (VLDB 2025)
-            </p>
-
-            <p style="margin: 0">
-              <a href="/assets/papers/X-Blossom.pdf">[PDF]</a>
-              <a href="https://github.com/Davis-Fan/X-Blossom">[Code]</a>
-              <a href="https://youtu.be/IhNGYpwpN28">[Video]</a>
-            </p>
-
-            <ul class="publication-highlights">
-              <li>
-                The first scalable parallel framework for maximum matching, a critical primitive in graph databases, network scheduling, and service dispatch
-              </li>
-              <li>
-                Proposes a new recursion-free Blossom algorithm that eliminates dynamic graph contraction, thereby removing strong recursive dependencies and exposing massive parallelism
-              </li>
-              <li>
-                Surpasses prior state-of-the-art matching solutions significantly, achieving speedups of up to three orders of magnitude
-              </li>
-            </ul>
-
-          </div>
-        </div>
-      </div>
-
-
-      <div class="publication-gallery">
-        <div class="publication-card">
-          <div class="publication-card-img">
-            <img src="/assets/img/X-TED.png" alt="X-TED thumbnail">
-          </div>
-
-          <div class="publication-card-body">
-            <p class="lead" style="margin-bottom: 0">
-              X-TED: Massive Parallelization of Tree Edit Distance
-            </p>
-
-
-            <p class="faded" style="margin-bottom: 0">
-              <span style="text-decoration: underline;">Dayi Fan</span>, Rubao Lee, Xiaodong Zhang
-            </p>
-
-            <p style="margin-top:0; margin-bottom:0; font-weight:200">
-              The 50<sup>th</sup> International Conference on Very Large Data Bases
-              (VLDB 2024)
-            </p>
-
-            <p style="margin: 0">
-              <a href="/assets/papers/X-TED.pdf">[PDF]</a>
-              <a href="https://github.com/Davis-Fan/X-TED">[Code]</a>
-              <a href="https://youtu.be/542wxM90KN0">[Video]</a>
-            </p>
-
-            <ul class="publication-highlights">
-              <li>
-                The first scalable parallel framework for tree edit distance, with broad applications including code analysis and LLM output evaluation
-              </li>
-              <li>
-                Develops a new algorithm that infers intricate data dependencies among dynamic-programming tables from input tree structures with negligible overhead and batches independent tables for concurrent processing
-              </li>
-              <li>
-                Achieves speedups of up to 31x over prior parallel solutions
-              </li>
-            </ul>
-
-          </div>
-        </div>
-      </div>
-
-
-      <div style="height: 60px;"></div>
-
-
-      <header>
-        <h2 class="page-title">Journal Article</h2>
-        <div class="hr pb0"></div>
-      </header>
-
-
-      <p class="lead" style="margin-bottom: 0">
-        RR-Compound: RDMA-Fused gRPC for Low Latency, High Throughput, and Easy Interface</a>
-      </p>
-      <p class="faded" style="margin-bottom: 0">
-        Liang Geng, Hao Wang, Jingsong Meng, <span style="text-decoration: underline;">Dayi Fan</span>, Sami Ben-Romdhane, Hari Kadayam Pichumani, Vinay Phegade, Xiaodong Zhang.
-      </p>
-      <p style="margin-top:0; margin-bottom:0">
-        IEEE Transactions on Parallel and Distributed Systems (TPDS 2024)
-        <a href="https://xiaodongzhang1911.github.io/Zhang-papers/TR-24-5.pdf">[PDF]</a>
-        <a href="https://github.com/pwrliang/grpc-rdma">[Code]</a>
-      </p>
-
 
 
 
